@@ -1,4 +1,4 @@
-package 二叉树.剑指offer27_二叉树的镜像;
+package 剑指offer.剑指offer27_二叉树的镜像;
 
 public class Node{
     private int data;
