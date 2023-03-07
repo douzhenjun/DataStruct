@@ -1,9 +1,10 @@
-package 二叉树.二叉树的垂序遍历.解答;
+package 二叉树.二叉树节点类;
 
 public class TreeNode {
     private int data;
     private TreeNode left;
     private TreeNode right;
+
 
     public TreeNode(){}
     public TreeNode(int data) {

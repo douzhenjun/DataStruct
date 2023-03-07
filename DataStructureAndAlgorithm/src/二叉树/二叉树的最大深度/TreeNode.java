@@ -1,8 +1,5 @@
 package 二叉树.二叉树的最大深度;
 
-import java.util.Deque;
-import java.util.LinkedList;
-
 public class TreeNode {
     int val;
     TreeNode left;

@@ -1,5 +1,7 @@
 package 二叉树.二叉树的最大宽度;
 
+import 二叉树.二叉树节点类.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

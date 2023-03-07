@@ -1,6 +1,6 @@
 package 剑指offer.剑指offer27_二叉树的镜像;
 
-public class Node{
+public class Node {
     private int data;
     private Node lchild;
     private Node rchild;
@@ -39,37 +39,37 @@ public class Node{
     }
 
     //根据列表构造一个完全二叉树
-    public void construct(Node root, int index, int[] arr){
-        if(index >= arr.length || index < 0){
+    public void construct(Node root, int index, int[] arr) {
+        if (index >= arr.length || index < 0) {
             root = null;
-            return ;
+            return;
         }
         root.setData(arr[index]);
-        if(2*index+1 < arr.length) {
+        if (2 * index + 1 < arr.length) {
             root.setLchild(new Node());
             construct(root.getLchild(), 2 * index + 1, arr);
         }
-        if(2*index+2 < arr.length){
+        if (2 * index + 2 < arr.length) {
             root.setRchild(new Node());
-            construct(root.getRchild(), 2*index+2, arr);
+            construct(root.getRchild(), 2 * index + 2, arr);
         }
     }
-    
-    public void construct2(Node root, int index, int[] arr){
-        if(index >= arr.length || index < 0){
+
+    public void construct2(Node root, int index, int[] arr) {
+        if (index >= arr.length || index < 0) {
             root = null;
-            return ;
+            return;
         }
         root.setData(arr[index]);
         root.setLchild(new Node());
-        construct2(root.getLchild(), 2*index+1, arr);
+        construct2(root.getLchild(), 2 * index + 1, arr);
         root.setRchild(new Node());
-        construct2(root.getRchild(), 2*index+2, arr);
+        construct2(root.getRchild(), 2 * index + 2, arr);
     }
 
     //先序遍历二叉树
-    public static void traverseInPreOrder(Node root){
-        if(root != null) {
+    public static void traverseInPreOrder(Node root) {
+        if (root != null) {
             System.out.println(root.getData());
             traverseInPreOrder(root.getLchild());
             traverseInPreOrder(root.getRchild());
@@ -83,9 +83,9 @@ public class Node{
         traverseInPreOrder(root);
 
         System.out.println("-------------------------------");
-        
+
         root.construct2(root, 0, arr);
         traverseInPreOrder(root);
-        
+
     }
 }

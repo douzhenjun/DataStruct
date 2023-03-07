@@ -1,6 +1,5 @@
 package 剑指offer.剑指offer27_二叉树的镜像;
 
-import com.sun.jdi.connect.Connector;
 
 public class MirrorBinaryTree {
     

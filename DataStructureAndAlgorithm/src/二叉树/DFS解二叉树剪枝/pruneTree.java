@@ -1,6 +1,7 @@
 package 二叉树.DFS解二叉树剪枝;
 
-import 二叉树.二叉树的最大宽度.TreeNode;
+
+import 二叉树.二叉树节点类.TreeNode;
 
 public class pruneTree {
     public TreeNode pruneTree(TreeNode root){

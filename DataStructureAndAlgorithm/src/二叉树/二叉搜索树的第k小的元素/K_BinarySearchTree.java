@@ -1,6 +1,8 @@
 package 二叉树.二叉搜索树的第k小的元素;
 
 
+import 二叉树.二叉树节点类.TreeNode;
+
 public class K_BinarySearchTree {
     
     private static int count;

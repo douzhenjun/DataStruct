@@ -1,5 +1,7 @@
 package 二叉树.重建二叉树;
 
+import 二叉树.二叉树节点类.TreeNode;
+
 public class Demo {
 //    private static int[] preArray = new int[]{1, 2, 4, 7, 3, 5, 6, 8};
 //    private static int[] inArray = new int[]{4, 7, 2, 1, 5, 3, 8, 6};

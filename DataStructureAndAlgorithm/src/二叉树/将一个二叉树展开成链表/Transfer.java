@@ -1,5 +1,7 @@
 package 二叉树.将一个二叉树展开成链表;
 
+import 二叉树.二叉树节点类.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

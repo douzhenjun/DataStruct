@@ -1,6 +1,7 @@
 package 二叉树.二叉树的最大宽度;
 
-import java.lang.module.FindException;
+import 二叉树.二叉树节点类.TreeNode;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
